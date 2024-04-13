@@ -6,7 +6,7 @@ const app = express();
 
 // Define routes
 app.get("/", (req, res) => {
-  res.send("Welcome to Real Estate CRM!");
+  res.send("Property CRM at your service!");
 });
 
 // Start the server
