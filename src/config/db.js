@@ -3,7 +3,7 @@ const conn = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "propertycrm",
+  database: "newpropcrm",
 });
 
 conn.connect(function (err) {
